@@ -1,4 +1,4 @@
-<img src='logo.png' width=400/>
+<img src='logo.png' width=500/>
 
 # GetBus
 GetBus - App By Oren Ploznik & David Galambos
