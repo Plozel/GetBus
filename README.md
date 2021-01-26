@@ -17,3 +17,4 @@ All you need is to enter the bus number and we will show you where it is and it'
 # How to use the application?
 Just enter http://orendavidlab.herokuapp.com/
 
+<img src='app_image.png' width=600/>
