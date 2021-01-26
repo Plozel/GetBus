@@ -1,4 +1,4 @@
-![Screenshot](misc/logo.png)
+![Screenshot](/misc/logo.png)
 # GetBus
 GetBus - App By Oren Ploznik & David Galambos
 
