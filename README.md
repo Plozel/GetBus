@@ -52,5 +52,7 @@ All pre-trained models can be recreated by changing : create_new_static_data to 
 (compatible only with batch data, should not be piplined with the rest of the script)<br>
  <br>
 To use your own data please change the following lines in your code: <br>
-`schema = pickle.load(open("/dbfs/mnt/schema.pkl", "rb"))` <br>
+
+`schema = pickle.load(open("/dbfs/mnt/schema.pkl", "rb"))` 
+
 `bus_data_location = '/mnt/dacoursedatabricksstg/dacoursedatabricksdata/busFile'`
