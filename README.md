@@ -1,7 +1,7 @@
-<img src='logo.png' width=500/>
+<img src='logo.png' width=600/>
 
 # GetBus
-GetBus - App By Oren Ploznik & David Galambos
+GetBus -  By Oren Ploznik & David Galambos
 
 # Overview
 GetBus is an app that will ease your schedule by letting you know your when and where your rides 🚍🚇🚘🛴.
