@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<title>GETBUSe</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="{{ url_for('home') }}" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="{{ url_for('about') }}" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
+    <a href="{{ url_for('schedule') }}" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BUS SCHEDULE</a>
+
+  </div>
+</div>
+
+<!-- The Tour Section -->
+  <div class="w3-black" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:1600px">
+      <h2 class="w3-wide w3-center">Real-Time Schedule</h2>
+
+      <p class="w3-opacity w3-center"><i>Please choose your line\bus stop id</i></p><br>
+        <iframe src="http://da2020w-0002.eastus.cloudapp.azure.com:5601/app/dashboards#/view/61c29c50-5903-11eb-8097-03bf3f90ed1e?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3A'2016-12-31T22%3A00%3A00.000Z'%2Cto%3A'2018-12-31T22%3A00%3A00.000Z'))&hide-filter-bar=true" height="1000" width="65%" align="left"></iframe>
+<iframe src="http://da2020w-0002.eastus.cloudapp.azure.com:5601/app/dashboards#/view/b1f506c0-5b62-11eb-8803-9d339a390387?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-15y%2Cto%3Anow))&hide-filter-bar=true" height="1000" width="33.5%" align="right"></iframe>
+
+    </div>
+  </div>
+
+
+</body>
+</html>

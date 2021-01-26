@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>GETBUS</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="{{ url_for('home') }}" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="{{ url_for('about') }}" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
+    <a href="{{ url_for('schedule') }}" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BUS SCHEDULE</a>
+
+  </div>
+</div>
+
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">Dublin Bus Service Website</h2>
+    <p class="w3-opacity"><i>Allways here to give you a ride</i></p>
+    <p class="w3-justify">Dublin Bus Service let you get your Dublin's public transportation schedule in  real-time.</p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p>Oren Ploznik</p>
+        <img src="https://drive.google.com/uc?id=1bpw9Hk_fl-vyVaTpyif34HaM4sgAibQ8" class="w3-round w3-margin-bottom" alt="Oren Ploznik" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>David Galambos</p>
+          <div class="p_pic">
+        <img src="https://drive.google.com/uc?id=1tyxb3phBHiTQgSlMl8twdYuHHtmJuf_q" class="w3-round" alt="David Galambos" border="1" style="width:60%">
+          </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
